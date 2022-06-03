@@ -30,8 +30,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+https://submissions.us-east-1.linodeobjects.com/metau_android/8LOTs2W5.gif
+![App Demo Link] (Screenshots/Screen Recording 2022-06-03 at 2.24.16 PM.mov)
 GIF created with [Kap](https://getkap.co/).
 
 ## Notes
