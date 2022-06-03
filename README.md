@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 https://submissions.us-east-1.linodeobjects.com/metau_android/8LOTs2W5.gif
-![App Demo Link] (Screenshots/Screen Recording 2022-06-03 at 4.51.43 PM.mov)
+![App Demo Link] (https://submissions.us-east-1.linodeobjects.com/metau_android/d7S4KG9y.gif)
 GIF created with [Kap](https://getkap.co/).
 
 ## Notes
