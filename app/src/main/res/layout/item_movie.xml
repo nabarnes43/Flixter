@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="120dp"
+        android:layout_height="180dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="287dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:text="Fast  Furious Presents: Hobbs Shaw"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvOverviewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="-9dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:text="The plot follows the unlikely pairing of the titular characters as they team up with Shaw's sister (Kirby) to battle a cybernetically enhanced terrorist (Elba) threatening the world with a deadly virus. "
+        android:textSize="13sp" />
+
+</RelativeLayout>
