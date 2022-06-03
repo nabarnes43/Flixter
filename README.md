@@ -19,7 +19,7 @@ The following **stretch** features are implemented:
 
 * [x] Improved the user interface by experimenting with styling and coloring.
 * [x] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#transformations)
-* [ ] Apply the popular [View Binding annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-ViewBinding) to reduce boilerplate code.
+* [x] Apply the popular [View Binding annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-ViewBinding) to reduce boilerplate code.
 * [ ] Allow video trailers to be played in full-screen using the YouTubePlayerView from the details screen.
 
 The following **additional** features are implemented:
@@ -46,7 +46,7 @@ reading the text on the videos was hard leading to typos sometimes. I might just
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Nasir Barnes]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
