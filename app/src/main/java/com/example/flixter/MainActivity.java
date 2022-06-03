@@ -6,11 +6,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 import com.example.flixter.Models.Adapters.MovieAdapter;
 import com.example.flixter.Models.Movie;
+import com.example.flixter.databinding.ActivityMainBinding;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,20 +31,26 @@ public class MainActivity extends AppCompatActivity {
 
     List<Movie> movies;
 
+    ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        RecyclerView rvMovies = findViewById(R.id.rvMovies);
-        movies = new ArrayList<>();
+        //setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
 
-        //Create the adapter
+        View view = binding.getRoot();
+        setContentView(view);
+        movies = new ArrayList<>();
         MovieAdapter movieAdapter = new MovieAdapter(this, movies);
+        binding.rvMovies.setAdapter(movieAdapter);
+        //RecyclerView rvMovies = findViewById(R.id.rvMovies);
+
+
         //Set the adapter on the recycler view
-        rvMovies.setAdapter(movieAdapter);
+        binding.rvMovies.setAdapter(movieAdapter);
         //Set a layout manager
-        rvMovies.setLayoutManager(new LinearLayoutManager(this));
+        binding.rvMovies.setLayoutManager(new LinearLayoutManager(this));
 
 
 

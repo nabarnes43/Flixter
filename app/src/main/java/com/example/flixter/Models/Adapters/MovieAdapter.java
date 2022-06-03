@@ -55,7 +55,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
     @Override
     public int getItemCount() {
         return movies.size();
-    } //
+    }
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
@@ -108,9 +108,8 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
             int radius = 30; // corner radius, higher value = more rounded
             int margin = 10; // crop margin, set to 0 for corners with no crop
 
-            Glide.with(context).load(imageURL).placeholder(R.drawable.flicks_movie_placeholder).centerCrop().transform(new RoundedCorners(radius)).into(ivPoster);
 
-           // Glide.with(context).load(imageURL).placeholder(R.drawable.flicks_movie_placeholder).into(ivPoster);
+            Glide.with(context).load(imageURL).placeholder(R.drawable.flicks_movie_placeholder).centerCrop().transform(new RoundedCorners(radius)).into(ivPoster);
 
         }
     }
