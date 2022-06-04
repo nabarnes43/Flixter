@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![App Demo Link] (Screenshots/Gif.gif)
+![App Demo Link](Screenshots/Gif.gif)
 GIF created with [Kap](https://getkap.co/).
 
 ## Notes
